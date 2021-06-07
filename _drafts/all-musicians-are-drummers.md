@@ -4,6 +4,9 @@ description: null
 comments: true
 published: false
 ---
+Record My son's toy with no rhythm
+Then record it with rhythm
+
 > You are really drummer a you know ...
 
 > You need to think like a drummer
