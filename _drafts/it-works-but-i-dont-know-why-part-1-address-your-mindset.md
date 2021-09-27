@@ -34,21 +34,23 @@ Both responses above are positive; however, if the second of the two resonates w
 
 Various research has been conducted over the years on how mindset affects performance.
 
-In the famous paper, ["Praise for Intelligence Can Undermine Children's Motivation and Performance,"][growth-mindset-paper] Claudia M. Mueller and Carol S. Dweck conduct a series of ...
+In the famous paper, ["Praise for Intelligence Can Undermine Children's Motivation and Performance,"][growth-mindset-paper] Claudia M. Mueller and Carol S. Dweck conduct a series of experiments on children to explore the affect on praise for intelligence vs. praise for hard work.  Some things they found it affected:
 
-_What did they do, exmaples_		
+* The types of tasks they chose to work on in the future (performance optimizing vs. learning optimizing)
+* The type of information they were interested in receiving after completing the task (the performance of others vs. techniques for mastery)
+* How they measured their intelligence based on performance (low ability vs. low effort)
 
-_What were the conclusions_			
+This work and others have led to the general theory on growth mindset.
 
-_Describe how this relates to mindset?_ ; how does praise for intelligence relate?
 
-Performance vs learning goals of the children
 
-Mastery
+These effects became apparent early in each experimental
+session when children were asked to choose between performance and learning goals for their future problem-solving tasks.
+Children praised for intelligence after success chose problems
+that allowed them to continue to exhibit good performance (representing a performance goal), whereas children praised for
+hard work chose problems that promised increased learning. 
 
-The focus on intelligence leads to the myth.
 
-I believe that there are few geniuses.  God blesses you with a 
 
 The blessing is not in the talent but in the desire to practice and work and the hunger for the end product.
 
