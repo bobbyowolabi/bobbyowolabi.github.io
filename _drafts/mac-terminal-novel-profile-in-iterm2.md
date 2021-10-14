@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-Some people like the default Matrix black white green profile scheme.
+Some people like the Matrix black white green profile scheme.
 ![image](/img/CMatrix.png)
 
 Or maybe some just like the standard black and white.
@@ -20,7 +20,7 @@ But I like the novel profile from Mac terminal.
 
 Here is the import file [[download]][download].
 
-It’s almost as I wants it however I would like to have different colors in the prompt. It appears that you may have to update the [PS1][PS1] environment variable.
+It’s almost as I want it however I would like to have different colors in the prompt. It appears that you may have to update the [PS1][PS1] environment variable.
 
 
 
