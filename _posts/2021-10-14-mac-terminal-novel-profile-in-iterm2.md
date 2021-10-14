@@ -2,7 +2,7 @@
 layout: post
 title: Mac Terminal Novel Profile in iTerm2
 bigimg: /img/iNovel.png
-description: null
+description: This post is about my favorite terminal color profile, Novel.  I first came across it in the Mac terminal application and ported it over to iTerm2.
 comments: true
 published: true
 ---
