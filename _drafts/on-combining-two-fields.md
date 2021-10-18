@@ -20,7 +20,7 @@ Back in 2014 oh, I cut back my full time work hours in order to go back to schoo
 
 Quote from Justine Musk. In order to become a billionaire you need some master 2 fields.
 
-
+https://www.quora.com/How-do-you-know-if-youve-discovered-your-passion/answer/James-Altucher
 
 
 
