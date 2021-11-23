@@ -31,32 +31,35 @@ When you fail to establish yourself people will write a narrative for you ... mo
 When you were accepted into the new environment, you demonstrated qualities and skills that were deemed suitable to contribute to the environment's bottom line.  Make sure that you remind everyone of these qualities by explicitly showing your value and strengths as soon as you can.
 
 ### Strengths
-A strength is merely something that you are naturally good at; it does not have to be overly complicated for it to be useful in an environment.  Here are some examples of strengths:
+A strength is merely [something that you are naturally good at][genius-zone]; it does not have to be overly complicated for it to be useful in an environment.  Here are some examples of strengths:
 
 **Documentation Wiz**
 
-This is the person on the team that is great at taking the initiative to update the documentation of your products. this individual could join a team and quickly make contributions to the documentation as they learn new things and find gas. They can help decrease the amount of inbounds requesting questions by making the documentation stronger. Teammates will notice this and appreciate it.
+This is the person on the team that is great at taking the initiative to update the documentation of your products.  This individual can join a team and quickly make contributions to the documentation as they learn new things ramp up.  They can help decrease the amount of inbounds requests that the team receives by making the documentation stronger.  Teammates will notice and appreciate it.
 
 **"This Does Not Make Sense" Alerter**
 
-Every team needs a person who is not afraid to call out when something does not make sense. Sometimes when a group of people are working on a task there may be things that are not clear to anyone but no one is willing to call it out and address the ambiguity. The person who has this $0.06 will help the team be focused and clear dust improving productivity.
+Every team needs a person who is not afraid to call out when something does not make sense. Sometimes when a group of people are working on a task there may be things that are not clear to anyone but no one is willing to call it out and address the ambiguity. The person who has this "sixth sense" will help the team be focused, build morale and improve productvity.
 
 **The Framework Layer**
 
- This is the person on the team who is able to see the areas that need automation or that are not well supported in The day-to-day tasks of the team members. This person takes the initiative to build libraries tools and Frameworks to make the various tasks of the teammates better. some organizations have teams dedicated to this purpose however, it is great to have a framework minded person on the team to do the nitty-gritty work that needs to be done but Austin is not prioritized.
+ This is the person on the team who is able to see the areas that need improvement in the day-to-day tasks of the team members. This person takes the initiative to automate, build libraries, tools and Frameworks to make the various tasks of the teammates better. Some organizations have teams dedicated to this purpose; however, it is great to have a framework minded person on the team to do the nitty-gritty work that needs to be done but often is not prioritized.
 
 **Ticket a Day Guru**
- this is the Assassin that is able to complete a g or a ticket feature request or bug fix in a day. They are able to just get stuff done quickly and efficiently. this person is a all star that helps push the team's productivity forward.
 
-**Testing Accountability Cheif**
+ This is the "assassin" that is able to complete a feature request or bug fix in a day. They are able to just get stuff done quickly and efficiently. This person is a all star that helps push the team's productivity forward.
 
- oftentimes people cut Corners when it comes to testing. Sometimes certain features or capabilities can be hard or not currently possible to test. 
+**Testing Accountability Chief**
+
+Often times individuals cut corners when it comes to testing. Certain features or capabilities can be hard or not currently possible to test.  This individual will adovcate for components to be well-tested.  This makes the overall confidence in the team's work stronger, thus building morale.
 
 **The Architect**
 
+This individual knows how to design systems fast and efficiently. They are able to a prototype and get a working artifact up and running as a proof-of-concept. this individual pushes the team's productivity forward.
+
 **The Organizer**
 
-**Team Morale Lead**
+This individual wears many hats. They make sure that everyone's birthday, milestones and work anniversary is acknowledged.   they will have everyone signed greeting cards when appropriate. They will plan social and team building activities. They make the team a pleasant environment to be in.  Thoughtfulness builds team morale and cohesion.
 
 **Company Tech Stack Expert**
 
