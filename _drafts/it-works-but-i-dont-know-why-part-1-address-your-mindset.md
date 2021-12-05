@@ -4,7 +4,7 @@ title: It Works But I Don't Know Why Part 1 - Address Your Mindset
 bigimg: /img/action-plan-brainstorming-complex-212286.jpg
 description: null
 comments: true
-published: false
+published: true
 categories: [it-works-but-i-dont-know-why]
 series-part: 1
 ---

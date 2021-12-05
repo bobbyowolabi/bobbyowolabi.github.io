@@ -1,10 +1,11 @@
 ---
-title: How to Be Good
+title: On What Makes You Good Part 5 - Be The Person You Want to Work With
 description: null
 bigimg: /img/pexels-artem-beliaikin-1051747.jpeg
 comments: false
 published: false
 categories: on-what-makes-you-good
+series-part: 5
 ---
 
 {% include on-what-makes-you-good-overview.md %}
