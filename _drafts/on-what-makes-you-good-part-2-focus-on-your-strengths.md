@@ -4,7 +4,7 @@ title: On What Makes You Good Part 2 - Focus on Your Strengths
 bigimg: /img/pexels-artem-beliaikin-1051747.jpeg
 description: null
 comments: true
-published: fals
+published: false
 categories: on-what-makes-you-good
 series-part: 2
 ---
