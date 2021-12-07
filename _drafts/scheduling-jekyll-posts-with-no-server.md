@@ -50,6 +50,11 @@ https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
 Solution: in _config.yml put exclude: [vendor]
 
 
+error:
+Error: Cannot publish on branch master
+https://stackoverflow.com/questions/68705337/jekyll-github-action-stopped-working-and-now-fails-with-error-message-cannot-p
+
+
 https://github.com/marketplace/actions/jekyll-actions
 
 https://jekyllrb.com/docs/continuous-integration/github-actions/
