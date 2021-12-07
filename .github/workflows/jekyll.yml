@@ -2,7 +2,7 @@ name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   schedule:
-    - cron: "35 17 * * *"
+    - cron: "50 17 * * *"
 
 jobs:
   github-pages:
