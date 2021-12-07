@@ -69,5 +69,5 @@ This individual is always thinking about the future. They Want to make sure that
 
 [genius-zone]: {% post_url 2017-05-14-on-channeling-your-natural-genius-zone %}
 [series-photo]: https://www.pexels.com/photo/come-in-we-re-awesome-sign-1051747
-[strengths]: /2021/12/05/on-what-makes-you-good-part-1-the-requirement#strengths
-[the-requirement]: foo.com
+[strengths]: /2021/12/09/on-what-makes-you-good-part-1-the-requirement#strengths
+[the-requirement]: /2021/12/09/on-what-makes-you-good-part-1-the-requirement
