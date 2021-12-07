@@ -2,7 +2,7 @@
 layout: post
 title: On What Makes You Good Part 1 - The Requirement
 bigimg: /img/pexels-artem-beliaikin-1051747.jpeg
-description: null
+description: A proposal of a mindset that new participants in an environment (industry, organization, team, etc.) should adopt in order to ensure their establishment and success in the new environment. This should be apart of everyone's checklist when onboarding whether or not it occurs organically or intentionally.
 comments: true
 published: true
 categories: on-what-makes-you-good
