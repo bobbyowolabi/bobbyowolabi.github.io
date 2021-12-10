@@ -1,11 +1,32 @@
 ---
 title: Schedule Jekyll Posts With GitHub
+bigimg: /img/pexels-mat-brown-552598.jpeg
 description: 
 comments: true
-published: false
+published: true
 ---
 
-Create a workflow file in directory .github/workflows/jekyll.yml
+tldr; *You can effectively schedule your jekyll posts on Github Pages via a GitHub Action to build your site at a regular scheduled time and future date your posts.*
+
+# Motivation
+
+https://alxmjo.com/2017/05/30/how-to-schedule-posts-with-jekyll/
+http://www.petecorey.com/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/?from=east5th.co
+
+
+# Steps 
+
+1. Create a GitHub Actions workflow file, such as `jekyll.yml`, in a directory `.github/workflows` in the directory of your jekyll site source.
+
+1. bar
+
+# Troubleshooting
+
+### Notes
+
+### References
+
+Create a GitHub actions workflow file in directory .github/workflows/jekyll.yml
 
 
 {% highlight yaml linenos %}
@@ -64,5 +85,15 @@ https://github.com/helaili/jekyll-action
 
 
 
-https://alxmjo.com/2017/05/30/how-to-schedule-posts-with-jekyll/
-http://www.petecorey.com/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/?from=east5th.co
+
+
+
+### Notes
+[<a name="series-photo">\*</a>] [*Photo by Mat Brown from Pexels*][post-photo]
+
+### Reference
+
+https://jekyllrb.com/docs/continuous-integration/github-actions/
+
+
+[post-photo]: https://www.pexels.com/photo/round-silver-colored-chronograph-watch-552598/
