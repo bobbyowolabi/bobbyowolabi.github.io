@@ -2,7 +2,8 @@ name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   schedule:
-    - cron: "17 41 * * *"
+    - cron: "50 13 * * *"
+  workflow_dispatch:
 
 jobs:
   github-pages:
@@ -13,3 +14,4 @@ jobs:
         with:
           token: ${{ secrets.GH_ACTIONS_TOKEN }}
           target_branch: 'gh-pages'
+          keep_history: true
