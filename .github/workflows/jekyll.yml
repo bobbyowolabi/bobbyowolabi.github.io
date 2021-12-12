@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@v2
-        with:
-          token: ${{ secrets.GH_ACTIONS_TOKEN }}
-          target_branch: 'gh-pages'
       - name: Configure Custom Domain
         env:
           CNAME: www.bobbyowolabi.com
         run: |
           echo $CNAME > CNAME
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GH_ACTIONS_TOKEN }}
+          target_branch: 'gh-pages'
