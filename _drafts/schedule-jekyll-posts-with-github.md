@@ -8,6 +8,8 @@ published: true
 
 tldr; *You can effectively schedule your jekyll posts on Github Pages via a GitHub Action to build your site at a regular scheduled time and future date your posts.  [[Steps]](#steps)*
 
+https://jamstack.org/what-is-jamstack/
+
 # First Scheduled Post
 If all goes well, the post you are reading now will be my first post whose publication was scheduled by a github action. Specially at x:Xx pm UTC 😀.
 
