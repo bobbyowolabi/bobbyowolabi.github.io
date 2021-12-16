@@ -2,6 +2,7 @@
 title: Artistic Inspiration
 description: The Blog of Bobby Owolabi, Software Engineer, where he shares about his exploration of software engineering drawing from inspirations of art.
 future: false
+keep_files: [.git, CNAME]
 
 # url is the full website URL
 url: "https://www.bobbyowolabi.com"
