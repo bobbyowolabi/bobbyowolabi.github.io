@@ -8,15 +8,21 @@ published: true
 
 tldr; *You can effectively schedule your jekyll posts on Github Pages via a GitHub Action to build your site at a regular scheduled time and future date your posts.  [[Steps]](#steps)*
 
-https://jamstack.org/what-is-jamstack/
+### First Scheduled Post
+If all goes well, the post you are reading now will be my first post whose publication was facilitated by a github action. Specially at 1:51 PM UTC 😀.
 
-# First Scheduled Post
-If all goes well, the post you are reading now will be my first post whose publication was scheduled by a github action. Specially at x:Xx pm UTC 😀.
+### Motivation
+In the beginning, webpages were very basic snd static.  It was pretty much HTML and text content.  Overtime, web pages became more dynamic, requiring a backend systems to update content on the page.  Web source files became very bloated, large in size and hard to read.  Unfortunately, this is still often the case today; however, there is a push to go back to a world web where webpage source code is much simpler focusing more on content and less on functionality.  This is where [Jamstack][jamstack] comes in.
 
-# Motivation
+**<u>J</u>**avascript **<u>A</u>**PIs **<u>M</u>**arkup Stack
 
-https://alxmjo.com/2017/05/30/how-to-schedule-posts-with-jekyll/
-http://www.petecorey.com/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/?from=east5th.co
+Nothing more ... nothing else.
+
+No owned backend services.  Just a webserver to host your HTML files. 
+
+I use Jekyll to build this blog.  [Jekyll][jekyll-jamstack] is a popular tool in the Jamstack space that allows you to focus on the content of your site while to it handles all the details of generating all of the web page source code. 
+
+This paradigm is great; however, you loose functionality that is often available when your site and blogging framework has a back end; such as scheduling posts.  This is something I've thought about often and have thought about intricarte plans of cron jobs running on my personal machines that issue API requests trigger builds of my site[a].
 
 # Background
 Hopefully, this background will save you some trouble I went through, in getting this all setup.
@@ -59,11 +65,10 @@ git remote set-url origin https://github.com/bobbyowolabi/bobbyowolabi.github.io
 If you change repo name, you'll need to update your DNS settings DNS provider
 
 #### Update Github Custom domain Property 
-Likely will need to update this again if you 
+Likely will need to update this again if you change the branch.  It will add a CNAME file in the new branch.
 
 
 ## Setup Jekyll Action
-1. 
 
 1. Create a GitHub Actions workflow file, such as `jekyll.yml`, in a directory `.github/workflows` in the directory of your jekyll site source.
 
@@ -105,11 +110,20 @@ Update config.yml not to publish posts dated for the future.
 
 Update page settings for published code
 
+
+[optional] Add a workflow_dispatch event so that the action can be triggered automatically.
+
 # Troubleshooting
 
 ### Notes
 
+[<a name="jekyll-scheduling-research">a</a>] Some resources that I have come across over the years:
+* [How to Schedule Jekyll Posts on Github Pages](https://alxmjo.com/2017/05/30/how-to-schedule-posts-with-jekyll/)
+* [Scheduling Posts with Jekyll, Github Pages & Zapier](http://www.petecorey.com/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier)
+
+
 ### References
+
 
 
 
@@ -139,11 +153,24 @@ https://github.com/helaili/jekyll-action
 https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository
 
 
+It looks like https://github.com/jeffreytse/jekyll-deploy-action supports cname
+
+https://www.cyberciti.biz/faq/create-a-file-in-linux-using-the-bash-shell-terminal/
+
 
 ### Notes
 [<a name="series-photo">\*</a>] [*Photo by Mat Brown from Pexels*][post-photo]
 
 ### Reference
+
+
+
+
+[jamstack]: https://jamstack.org/what-is-jamstack/
+[jekyll-jamstack]: https://jamstack.org/generators/jekyll/
+
+https://github.com/jeffreytse/jekyll-deploy-action
+
 https://github.community/t/helaili-jekyll-action-v2-fail-for-error-cannot-publish-on-branch-master/179257
 
 https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
