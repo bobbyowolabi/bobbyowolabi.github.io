@@ -3,7 +3,7 @@ title: Quote - Blogging Changed My Life
 bigimg: 
 description: 
 comments: true
-published: true
+published: false
 ---
 
 ### Quote
