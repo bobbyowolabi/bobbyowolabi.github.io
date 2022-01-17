@@ -59,36 +59,11 @@ Create a new file in your repository (i.e. `jekyll.yml`), in the directory `.git
 1. **Configure the `jeffreytse/jekyll-deploy-action` GitHub Action to Build & Deploy Your Site** <sup>[[b]](#jekyll-github-action-options)</sup> <br/>
     
     **File**: `.github/workflows/jekyll.yml`:
-    <!--- Add an image of the source with a download link -->
-    ```yaml
-    name: Build and deploy Jekyll site to GitHub Pages
 
-    on:
-      schedule:
-        - cron: "50 13 * * *"
-      workflow_dispatch:
-
-    jobs:
-      build_and_deploy:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v2
-
-          # Use GitHub Actions' cache to cache dependencies on servers
-          - uses: actions/cache@v2
-            with:
-              path: vendor/bundle
-              key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-              restore-keys: |
-                ${{ runner.os }}-gems-
-          # Use GitHub Deploy Action to build and deploy to Github
-          - uses: jeffreytse/jekyll-deploy-action@v0.3.1
-            with:
-              provider: 'github'
-              token: ${{ secrets.GH_ACTIONS_TOKEN }} 
-              branch: 'gh-pages'
-              cname: 'www.bobbyowolabi.com'
-    ```
+    [[download]][jekyll-yml-download]
+    <a href="{{ site.url }}/downloads/jekyll.yml">
+      <img src="/img/jekyll.png" width="100%" height="100%">
+    </a>
 
     *Some Configuration Notes*:
     * Figure out how often you would like the site to build using https://crontab.guru/.  Put this value in the cron value above.
@@ -97,14 +72,16 @@ Create a new file in your repository (i.e. `jekyll.yml`), in the directory `.git
     * The actions/cache action is also optional, but should speed up deploy time by caching the site dependencies.
 
 
-1. Update page settings for published code to point to correct branch
+1. **Update page settings for published code to point to correct branch**
 
     Update Github Custom domain Property 
     Likely will need to update this again if you change the branch.  It will add a CNAME file in the new branch.
 
 
-1. Test it out by clicking the run button
+1. **Test it out by clicking the run button**
 
+1. **Future Date Your Next Post** <br/>
+Set the date of your next post to a future date and move on to the next one!
 
 
 ### Notes
@@ -113,23 +90,23 @@ Create a new file in your repository (i.e. `jekyll.yml`), in the directory `.git
 * [How to Schedule Jekyll Posts on Github Pages](https://alxmjo.com/2017/05/30/how-to-schedule-posts-with-jekyll/)
 * [Scheduling Posts with Jekyll, Github Pages & Zapier](http://www.petecorey.com/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier)
 
-[<a name="jekyll-github-action-options">b</a>] Initially I started using the helaili/jekyll-action.  It worked but it does not support custom domains by creating the CNAME file ... <To finish>
+[<a name="jekyll-github-action-options">b</a>] Initially I started using the helaili/jekyll-action.  This seems to be the Action specified in official documentation.  It worked when I used it but it does not support custom domains by creating the CNAME file.  I tried to manually create the CNAME file in the yaml workflow definition itself but was unable to.  The jeffreytse/jekyll-deploy-action Action supports custom domains.
 
 
 [<a name="series-photo">\*</a>] [*Photo by Mat Brown from Pexels*][post-photo]
 
-### Reference
-https://github.com/jeffreytse/jekyll-deploy-action
+### Resources
+* [JEKYLL DEPLOY ACTION][jekyll-deploy-action]
+* [Publishing sources for GitHub Pages sites][publishing-sources-for-gh]
+* [GitHub Actions][github-actions]
+* [jekyll-action][jekyll-action]
 
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-
-https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites
-
-https://jekyllrb.com/docs/continuous-integration/github-actions/
-
-https://github.com/helaili/jekyll-action#jekyll-action
-
-
+[jekyll-yml-download]: {{ site.url }}/downloads/jekyll.yml
+[jekyll-deploy-action]: https://github.com/jeffreytse/jekyll-deploy-action
+[configuring-source-for-gh]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+[publishing-sources-for-gh]: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites
+[jekyll-action]: https://github.com/helaili/jekyll-action#jekyll-action
+[github-actions]: https://jekyllrb.com/docs/continuous-integration/github-actions/
 [jamstack]: https://jamstack.org/what-is-jamstack/
 [jekyll-jamstack]: https://jamstack.org/generators/jekyll/
 [post-photo]: https://www.pexels.com/photo/round-silver-colored-chronograph-watch-552598/
