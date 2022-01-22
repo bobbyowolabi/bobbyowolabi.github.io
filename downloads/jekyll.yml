@@ -25,4 +25,4 @@ jobs:
           provider: 'github'
           token: ${{ secrets.GH_ACTIONS_TOKEN }} 
           branch: 'gh-pages'
-          cname: 'www.bobbyowolabi.com'
+          cname: ''
