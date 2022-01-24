@@ -1,7 +1,7 @@
 ---
 title: Schedule Jekyll Posts With GitHub
 bigimg: /img/pexels-mat-brown-552598.jpeg
-description: 
+description: This post is a tutorial on how to schedule your Jekyll blog posts on GitHub. You can effectively schedule your jekyll posts on Github Pages via a GitHub Action to build your site at a regular scheduled time and future date your posts.
 comments: true
 published: true
 ---
@@ -74,17 +74,24 @@ Create a new file in your repository (i.e. `jekyll.yml`), in the directory `.git
 
 1. **Update Repository's `Pages` Settings**
 
-    1. *Under Source, Select Branch to Build From*
+    1. *Navigate to Pages Settings* <br/>
+    `Settings -> Pages`
+
+    1. *Under Source, Select Branch to Build From* <br/>
     Make sure that the branch you select matches the `branch` property from the workflow file above.  `gh-pages` branch seems to be an accepted convention.
 
-    1. *Update Github Custom Domain Property* 
+    1. *Update Github Custom Domain Property* <br/>
     If you have a custom domain, make sure to update the `Custom domain` property with the value.  Otherwise, you can skip this.
     
-1. **Test Out Your Action**
-    If you have `workflow_dispatch` in 
+1. **Test Out Your Action** <br/>
+    If you have `workflow_dispatch` specified in workflow configuration, you can run the workflow on-demand by clicking `Run workflow` on the workflow under the Actions tab.
+
+    <img src="/img/workflow-dispatch-icon.png" alt="Screenshot of GitHub Run Workflow icon circled in red" >
 
 1. **Future Date Your Next Post** <br/>
-Set the date of your next post to a future date and move on to the next one!
+    1. Set the date of your next post to a future date 
+    1. Forget about it!
+    1. Move on to the next one!
 
 
 ### Notes
