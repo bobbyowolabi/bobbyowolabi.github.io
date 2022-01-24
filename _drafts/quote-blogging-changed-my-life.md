@@ -1,9 +1,9 @@
 ---
 title: Quote - Blogging Changed My Life
-bigimg: 
+image: /img/codinghorror-app-icon.png
 description: 
 comments: true
-published: false
+published: true
 ---
 
 ### Quote
@@ -11,17 +11,23 @@ published: false
 
 
 ### Source
+Atwood, Jeff. “About Me.” Blog Post. "Coding Horror" programming and human factors. 02 Feb 2004. Web. 24 Jan 2020.
 
 ### Context 
+This excerpt is on Jeff Atwood's "About Me" page as the first bullet point in a timeline of notable career accomplishments & milestones.
 
 ### Thoughts
+I just love this quote 😍.  
+
+I come back to it (and the subsequent link in it) every few months.  It inspires me.
+
+<img src="/img/atwood-blogging-changed-my-life-screenshot.png">
+
 
 ### Notes
-[<a name="series-photo">\*</a>] [*Photo by Mat Brown from Pexels*][post-photo]
+[<a name="series-photo">\*</a>] [*Logo from codinghorror.com (Jeff Atwood © 2022); Logo image © 1993 Steven C. McConnell*][coding-horror-logo]
 
-### Reference
 
 [atwood-about-me]: https://blog.codinghorror.com/about-me/
 [atwood-blogging-advice]: https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/ 
-
-[post-photo]: https://www.pexels.com/photo/round-silver-colored-chronograph-watch-552598/
+[coding-horror-logo]: https://blog.codinghorror.com/assets/images/codinghorror-app-icon.png?v=040b72cd1f
