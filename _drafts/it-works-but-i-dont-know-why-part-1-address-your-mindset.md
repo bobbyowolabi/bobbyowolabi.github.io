@@ -2,9 +2,9 @@
 layout: post
 title: It Works But I Don't Know Why Part 1 - Address Your Mindset
 bigimg: /img/action-plan-brainstorming-complex-212286.jpg
-description: null
+description: This post on growth mindset is a part of a series that is exploring ecouraging insights and techniques to mentally deal with the sentiment of not understanding how to use a system or framework in your everyday work.
 comments: true
-published: false
+published: true
 categories: [it-works-but-i-dont-know-why]
 series-part: 1
 ---
@@ -40,40 +40,42 @@ In the famous paper, ["Praise for Intelligence Can Undermine Children's Motivati
 * The type of information they were interested in receiving after completing the task (the performance of others vs. techniques for mastery)
 * How they measured their intelligence based on performance (low ability vs. low effort)
 
+
+	> These effects became apparent early in each experimental
+	session when children were asked to choose between performance and learning goals for their future problem-solving tasks.
+	Children praised for intelligence after success chose problems
+	that allowed them to continue to exhibit good performance (representing a performance goal), whereas children praised for 
+	hard work chose problems that promised increased learning. <sup>[[1]](#growth-mindset-paper)</sup> 
+
+
 This work and others have led to the general theory on growth mindset.
 
+#### What Can We Take From This?
+We should adopt a mindset of thinking that we can always expand our knowledge and use the opportunities when knowledge gaps are realized as a way to explore and learn.
 
-
-These effects became apparent early in each experimental
-session when children were asked to choose between performance and learning goals for their future problem-solving tasks.
-Children praised for intelligence after success chose problems
-that allowed them to continue to exhibit good performance (representing a performance goal), whereas children praised for
-hard work chose problems that promised increased learning. 
-
-
-
-The blessing is not in the talent but in the desire to practice and work and the hunger for the end product.
-
-The myth of talent.  We look at people who are good and do things effortless and don't realize how much work was put in to get to that point.  	
-
-#### Controversey
-Talk about some of the controversey around the theory but that anecdoteally that it has proved to be helpful.
+Talent is a myth ... rather innate expert talent is a myth.  Individuals have to work very hard to be "talented".  Since this work / practice is often done in private, observers often assume the person is "just talented". 
 
 ### Reasons to Address Your Mindset
+Perception is very powerful, especially our self perception.  The following concepts can be used to challenge our perceptions and change our mindsets.
 
 #### It's Not Always User Error
-Some code may just not be well written.  I have been in situations when I've felt self-concious for not understanding how something is working only to realize in the end that it was not well-written code.
+Some code may just not be well written.  I have been in situations when I've felt self-concious for not understanding how something is working only to realize in the end that it was not well-written or designed.
 
 #### It Doesn't Look As Bad As You Think (Deal With Imposter Syndrome)
-If you are in a healthy organization with good hiring processes, than there is a reason they hired you.
+If you are in a healthy organization with good hiring processes, then there is a reason they hired you.  I recently wrote the following in [part 1 of How to Be Good][on-what-makes-you-good-part-1].
+
+> When you were accepted into the new environment, you demonstrated qualities and skills that were deemed suitable to contribute to the environment’s bottom line ... 
 
 #### You Are Learning Someone Else's Mental Model
-Be kind to yourself.  It's important to put any problem at hand in its proper perspective.  When you are learning new code, what you are really doing is learning someone else's mental model of the problem they attempted to solve.  The best solutions  Sometimes a mental model may come easy to you.  Other times it may not, be kind to yourself as you learn the model.
+Be kind to yourself.  It's important to put any problem at hand in its proper perspective.  When you are learning new code, what you are really doing is learning someone else's mental model of the problem they attempted to solve.  Sometimes a mental model may come easy to you.  Other times it may not, be kind to yourself as you learn the model.
 
 ### Conclusion
 It's very important to separate how you feel about yourself and life from your performance <sup>[[a]](#eloquent-javascript-note)</sup>.  If you don't do this, you'll find that your mood will swing by the day or even hour depending on how quickly you are able to perform your tasks.  Be kind to yourself, it's just not a nice way to live when you make your perforamnce a reflection on yourself.
 
-Have the mindset that I am going to grow no matter what and you truly will.
+Consider adopting the the mindset that
+> I am going to grow no matter what.
+
+Stick with the process ... it will get better over time.
 
 ### Notes
 [<a name="eloquent-javascript-note">a</a>] I like the advice that Haverbeke gives to his readers in the introduction of his text on programming.
@@ -90,18 +92,10 @@ Have the mindset that I am going to grow no matter what and you truly will.
 
 [<a name="eloquent-javascript-quote">5</a>] Haverbeke, Marijn. ["Introduction."][eloquent-javascript-quote] Eloquent JavaScript: A Modern Introduction to Programming. 2nd ed., No Starch Press, 2014.
 
+[<a name="eloquent-javascript-quote">6</a>] Interviewee Dweck, Carol. “[How Praise Became a Consolation Prize][dweck-interview].” Interview by Christine Gross-Loh. The Atlantic. 16 Dec 2016. Accessed 26 Jan 2022. [URL][dweck-interview].
 
-Research Lists
-* https://www.mindsetkit.org/growth-mindset-parents/learn-about-growth-mindset/research-how-mindset-affects-learning
-* https://dweck.socialpsychology.org/publications
-* https://profiles.stanford.edu/carol-dweck?tab=publications
-
-Book
-https://books.google.com/books/about/Mindset.html?id=bOGHDQAAQBAJ&source=kp_book_description
-
-Articles
-https://www.theatlantic.com/education/archive/2016/12/how-praise-became-a-consolation-prize/510845/
-
+[on-what-makes-you-good-part-1]: {% post_url 2021-12-09-on-what-makes-you-good-part-1-the-requirement %}
+[dweck-interview]: https://www.theatlantic.com/education/archive/2016/12/how-praise-became-a-consolation-prize/510845/
 [growth-mindset-paper]: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=A31638AF1453BD81DFF19E08321F396D?doi=10.1.1.477.4297&rep=rep1&type=pdf
 [growth-mindset-problem]: https://aeon.co/essays/schools-love-the-idea-of-a-growth-mindset-but-does-it-work
 [carol-dweck-wikipedia]:https://en.wikipedia.org/wiki/Carol_Dweck
