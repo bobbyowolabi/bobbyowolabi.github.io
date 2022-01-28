@@ -31,11 +31,11 @@ This is the person on the team that is great at taking the initiative to update 
 
 **"This Does Not Make Sense" Alerter**
 
-Every team needs a person who is not afraid to call out when something does not make sense. Sometimes when a group of people are working on a task there may be things that are not clear to anyone but no one is willing to call it out and address the ambiguity. The person who has this "sixth sense" will help the team be focused, build morale and improve productivity.
+Every team needs a person who is not afraid to call out when something does not make sense.  When working on a task as a group, there may be things that are not clear to anyone; however, no one is willing to call it out and address the ambiguity. It is in this situations where this strength shines.  The person who has this "sixth sense" will help the team be focused, build morale and improve productivity.
 
 **The Framework Layer**
 
- This is the person on the team who is able to see the areas that need improvement in the day-to-day tasks of the team members. This person takes the initiative to automate, build libraries, tools and Frameworks to make the various tasks of the teammates better. Some organizations have teams dedicated to this purpose; however, it is great to have a framework minded person on the team to do the nitty-gritty work that needs to be done but often is not prioritized.
+ This is the person on the team who is able to see the areas that need improvement in the day-to-day tasks of the team members. This person takes the initiative to automate, build libraries, tools and Frameworks to make the various tasks of the teammates better. Some organizations have whole teams dedicated to this purpose; however, it is great to have a framework minded person on the team to do the nitty-gritty work that needs to be done but often is not prioritized.
 
 **Ticket a Day Guru**
 
@@ -68,11 +68,14 @@ This individual is a leader that the team will appreciate.
 This individual is always thinking about the future. They want to make sure that the team's vision is clear and in alignment with their current work. Sometimes this means deprecating or retiring certain products …  sometimes this means interviewing customers and thinking about future products or features that address their needs not necessarily their exact suggested implementation.  Planning is necessary and common practice; however, strategic planning is not always prioritized.  This individual can help solidify the relevance of your team in your organization.
 
 **Company Tech Stack Expert**
-This individuals know the company's tech stack inside out.  Can't figure out how to express a certain construct in the language your system primarily written in ... they got you.  Need help with monitoring and deployment ... they got you.  Need to spin up a new service.  This individual is an allstar.  This individual usually enjoys teaching and has a solid mental model of how things work that they love to share.  
 
-**The Ethics Thought Leader**
+This individual knows the company's tech stack inside out.  Can't figure out how to express a certain construct in the language your system is primarily written in ... they got you.  Need help with monitoring and deployment ... they got you.  Need to spin up a new service ... they got you.  This individual is an allstar.  This individual usually enjoys teaching and has a solid mental model of how things work that they love to share.  
 
-<br/>
+### Conclusion
+This is a continuation on the stream of thought concerning thriving and a competitive environment. It is really helpful to know your strengths because these are the pillars you will stand on in order to thrive and stand out in a competitive environment. In a competitive environment everyone is good, so being good does not distinguish yourself from the crowd. However we are all created with unique talents and gifts so in a sense everyone has it within themselves to stand out for their own uniqueness if intentional about it.
+
+I think that it can be empowering to really know your strengths. In any performance art such as sports or music people know their strengths and market themselves to this. 
+
 
 ### Notes
 
