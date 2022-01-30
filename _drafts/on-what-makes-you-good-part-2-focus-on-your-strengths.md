@@ -27,11 +27,11 @@ Leaning into one's strengths can boost morale and confidence.  It is also a cata
 
 **Documentation Wiz**
 
-This is the person on the team that is great at taking the initiative to update the documentation of your products.  This individual can join a team and immediately make contributions as they learn new things and ramp up.  They can help decrease the amount of inbounds requests that the team receives by making the documentation stronger.  Teammates will notice and appreciate this.
+This is the person on the team that is great at taking the initiative to update the documentation of your products.  This individual can join a team and immediately make an impact as they learn new things and ramp up.  They can help decrease the amount of inbounds requests that the team receives by making the documentation stronger.  Teammates will notice and appreciate this.
 
 **"This Does Not Make Sense" Alerter**
 
-Every team needs a person who is not afraid to call out when something does not make sense.  When working on a task as a group, there may be things that are not clear to anyone; however, no one is willing to call it out and address the ambiguity. It is in this situations where this strength shines.  The person who has this "sixth sense" will help the team be focused, build morale and improve productivity.
+Every team needs a person who is not afraid to call out when something does not make sense.  When working on a task as a group, there may be things that are not clear to anyone; however, no one is willing to call it out and address the ambiguity. It is in these situations where this strength shines.  The person who has this "sixth sense" will help the team be focused, build morale and improve productivity.
 
 **The Framework Layer**
 
@@ -43,7 +43,7 @@ Every team needs a person who is not afraid to call out when something does not 
 
 **Test Accountability Chief**
 
-Often times individuals cut corners when it comes to testing. Certain features or capabilities can be hard or not currently possible to test.  This individual will advocate for components to be well-tested and advocate to prioritize the tasks that need to be completed to accomplish this.  This makes the overall confidence in the team's work stronger, thus building morale.
+Often times individuals cut corners when it comes to testing. Certain features or capabilities can be hard or not currently possible to test.  This individual will advocate for components to be well-tested and push to prioritize the tasks that need to be completed to accomplish this.  This makes the overall confidence in the team's work stronger, thus building morale.
 
 **The Architect**
 
@@ -59,8 +59,9 @@ Every team needs someone who can:
 * Create a road map for the team to execute on.
 * Consolidate the details of a discussion into a document that can be visualized and shared for further evaluation.
 * Ensure that designs and tasks are well fleshed out in the team’s ticketing system.
-* Meet with team members to understand they current work and challenges and translate these insights into action items.
+* Meet with team members to understand their current work and challenges and translate these insights into action items.
 * Meet with partner teams and customers to understand inbounds requests.  
+
 This individual is a leader that the team will appreciate.
 
 **The Visionary**
@@ -69,19 +70,17 @@ This individual is always thinking about the future. They want to make sure that
 
 **Company Tech Stack Expert**
 
-This individual knows the company's tech stack inside out.  Can't figure out how to express a certain construct in the language your system is primarily written in ... they got you.  Need help with monitoring and deployment ... they got you.  Need to spin up a new service ... they got you.  This individual is an allstar.  This individual usually enjoys teaching and has a solid mental model of how things work that they love to share.  
+This individual knows the company's tech stack inside and out.  Can't figure out how to express a certain construct in the language your system is primarily written in ... they got you.  Need help with monitoring and deployment ... they got you.  Need to spin up a new service ... they got you.  This individual is an allstar.  This individual usually enjoys teaching and has a solid mental model of how things work that they love to share.  
 
 ### Conclusion
-This is a continuation on the stream of thought concerning thriving and a competitive environment. It is really helpful to know your strengths because these are the pillars you will stand on in order to thrive and stand out in a competitive environment. In a competitive environment everyone is good, so being good does not distinguish yourself from the crowd. However we are all created with unique talents and gifts so in a sense everyone has it within themselves to stand out for their own uniqueness if intentional about it.
-
-I think that it can be empowering to really know your strengths. In any performance art such as sports or music people know their strengths and market themselves to this. 
-
+It is very important to know your strengths because these are the pillars you will stand on in order to thrive and stand out in a given environment.  We are all created with unique talents and gifts; so in a sense, everyone has it within themselves to stand out ... in some cases, we just need to be intentional about it.
 
 ### Notes
 
 [<a name="series-photo">\*</a>] [*Photo by Artem Beliaikin from Pexels*][series-photo]
 
 [genius-zone]: {% post_url 2017-05-14-on-channeling-your-natural-genius-zone %}
+[competitive-environment]: /2021/12/09/on-what-makes-you-good-part-1-the-requirement#competitiveness
 [series-photo]: https://www.pexels.com/photo/come-in-we-re-awesome-sign-1051747
 [strengths]: /2021/12/09/on-what-makes-you-good-part-1-the-requirement#strengths
 [the-requirement]: /2021/12/09/on-what-makes-you-good-part-1-the-requirement
