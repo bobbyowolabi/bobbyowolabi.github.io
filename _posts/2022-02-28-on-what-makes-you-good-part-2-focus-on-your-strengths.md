@@ -2,7 +2,7 @@
 layout: post
 title: On What Makes You Good Part 2 - Focus on Your Strengths
 bigimg: /img/pexels-artem-beliaikin-1051747.jpeg
-description: null
+description: This post, on focusing on your strengths is a part of a series where we are exploring “how to be good” went joining a new environment (industry, organization, team, etc).  We list quite a few archetypes of members on software engineering teams that will be fun to go through.
 comments: true
 published: true
 categories: on-what-makes-you-good
