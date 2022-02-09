@@ -103,8 +103,6 @@ Create a new file in your repository (i.e. `jekyll.yml`), in the directory `.git
 [<a name="jekyll-github-action-options">b</a>] Initially I started using the [helaili/jekyll-action][jekyll-action].  This seems to be the Action specified in official documentation.  It worked when I used it; however, it does not support custom domains by creating the CNAME file.  I tried to manually create the CNAME file in the yaml workflow definition itself but was unable to.  The jeffreytse/jekyll-deploy-action Action supports custom domains.
 
 
-[<a name="series-photo">\*</a>] [*Photo by Mat Brown from Pexels*][post-photo]
-
 ### Resources
 * [JEKYLL DEPLOY ACTION][jekyll-deploy-action]
 * [Publishing sources for GitHub Pages sites][publishing-sources-for-gh]

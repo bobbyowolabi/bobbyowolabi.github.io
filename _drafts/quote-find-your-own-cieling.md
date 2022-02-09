@@ -11,10 +11,8 @@ published: true
 >
 > So you have now like a long litany of people that are following in Wynton's footsteps which is great you know.  But if you want to like penetrate, you have your own kind of sense of self ... you better go over here and find your own ceiling you know something along those lines you know.  
 > 
-> So I thought to myself I wanted to release like a very straight ahead purest jazz record where I'm playing you know 15 courses of "All the Things You Are" or something I'm never going to do it like Wynton so don't (try).
+> So I thought to myself I wanted to release like a very straight ahead purest jazz record where I'm playing you know 15 courses of "All the Things You Are" or something I'm never going to do it like Wynton so don't (try).<sup>[[a]](#transcription-disclaimer)</sup>
 
-
-*Removed repeated words and x for clarity*
 
 ### Sources
 #### Primary
@@ -29,11 +27,10 @@ https://www.instagram.com/p/CAa9WeQg297/
 #### Original
 *Original Full Interview*
 
-Bone2Pick: Chris Botti Interview, Part 1
+[Bone2Pick: Chris Botti Interview, Part 1][original-interview]
 Jan 5, 2013
 HipBoneMusic
 Michael Davis interviews Chris Botti, part 1.
-https://www.youtube.com/watch?v=DWOdrRvcLP0
 
 ### Context 
 {% include chris-botti-ig-post-on-wynton.html %}
@@ -45,8 +42,11 @@ https://www.youtube.com/watch?v=DWOdrRvcLP0
 
 
 ### Notes
+[<a name="transcription-disclaimer">a</a>] 
 [<a name="quote-photo">\*</a>] *[Photo of Chris Botti][quote-photo-original]; Copyright [Manonce][manonce] [@manonceartist][manonceartist-ig]*
 
+[original-interview]: https://www.youtube.com/watch?v=DWOdrRvcLP0
+[chris-botti]: https://www.chrisbotti.com/
 [quote-photo-original]: https://www.instagram.com/p/CXmrJkDr2Xi/
 [manonce]: https://www.manonceartist.com/
 [manonceartist-ig]: https://www.instagram.com/manonceartist/

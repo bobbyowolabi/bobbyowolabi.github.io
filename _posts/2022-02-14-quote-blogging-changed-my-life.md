@@ -1,6 +1,6 @@
 ---
 title: Quote - Blogging Changed My Life
-image: https://blog.codinghorror.com/assets/images/codinghorror-app-icon.png?v=040b72cd1f
+image: /img/codinghorror-app-icon.png
 description: This post is about an excerpt from Jeff Atwood's "About Me" page that I find so inspirational.  Blogging changed his life.  He wrote six posts a week "in utter obscurity" ... but it paid off.
 comments: true
 published: true

@@ -1,6 +1,6 @@
 ---
 title: Quote - Always Be Jabbing
-image: https://blog.codinghorror.com/assets/images/codinghorror-app-icon.png?v=040b72cd1f
+image: /img/codinghorror-app-icon.png
 description: This post is about an excerpt from Jeff Atwood's post on "How To Achieve Ultimate Blog Success In One Easy Step".  It is a reminder to keep jabbing, that is consistently putting out short form content.
 comments: true
 published: true
