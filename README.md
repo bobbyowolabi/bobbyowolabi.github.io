@@ -72,15 +72,17 @@ Efforts will be made to carefully cite sources in the posts of this blog.
    *[Website w/ a Known Author:][known-author-website]*  
    `Author's Last Name, First Name. Title of Website, Name of Organization Affiliated with the Website. Date of Copyright / Date Last Modified. Access Date. URL.`
    
-   *[Online Magazine Article:][online-magazine-article]*     
-   `Last, First M. "Article Title." Magazine Title. Date Month Year Published. Website Title Web. Date Month Year Accessed.`
+   *[Online Magazine Article:][online-magazine-article]*    `Last, First M. "Article Title." Magazine Title. Date Month Year Published. Website Title Web. Date Month Year Accessed.`
+
+   *[Material Posted on Social Media Platforms][social-media-materials]*
+   `Display Name [@username]. Description of Media. Platform, 5 July 2020, URL.`
 
 ## License
 > **Content: Copyright &copy; 2017-Present Robert B. Owolabi.**
 
 > **Code: Released Under [MIT License](license.md).**
 
-
+[social-media-materials]: https://style.mla.org/citing-social-media/
 [blog-citation]: https://www.easybib.com/guides/citation-guides/mla-format/how-to-cite-a-blog-mla/
 [video-citation]: http://www.citationmachine.net/resources/cite-youtube-video
 [image-citation]: http://www.citationmachine.net/resources/cite-image-found-google-images

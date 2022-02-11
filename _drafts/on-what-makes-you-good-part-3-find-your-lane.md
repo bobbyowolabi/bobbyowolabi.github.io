@@ -4,7 +4,7 @@ title: On What Makes You Good Part 3 - Find Your Lane
 bigimg: /img/pexels-artem-beliaikin-1051747.jpeg
 description: null
 comments: true
-published: true
+published: false
 categories: on-what-makes-you-good
 series-part: 3
 ---
