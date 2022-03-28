@@ -77,6 +77,9 @@ Efforts will be made to carefully cite sources in the posts of this blog.
    *[Material Posted on Social Media Platforms][social-media-materials]*
    `Display Name [@username]. Description of Media. Platform, 5 July 2020, URL.`
 
+   *[Website][website-citation]* 
+   `Last name, First name of author. “Title of Web Page.” Title of Website, Publisher, Date published, URL.`
+
 ## License
 > **Content: Copyright &copy; 2017-Present Robert B. Owolabi.**
 
@@ -93,4 +96,5 @@ Efforts will be made to carefully cite sources in the posts of this blog.
 [online-interview]: http://www.easybib.com/guides/citation-guides/mla-format/how-to-cite-a-interview-mla/
 [known-author-website]: http://columbiacollege-ca.libguides.com/mla/websites
 [online-magazine-article]: http://www.easybib.com/reference/guide/mla/magazine
+[website-citation]: https://www.citationmachine.net/mla/cite-a-website
 [daattali]: https://github.com/daattali
