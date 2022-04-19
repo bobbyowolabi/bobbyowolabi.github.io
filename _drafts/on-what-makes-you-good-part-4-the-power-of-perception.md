@@ -11,8 +11,12 @@ series-part: 4
 
 {% include on-what-makes-you-good-overview.md %}   
 
+Can an 
 
 
+It is possible to be the same engineer with the same skill level and switch teams or companies and have vastly different perceptions (Some also call this reputations).
+
+I 
 
 ### On the Power of Perception
 This On the power of perception and your career. This is another title that could go well with this post.
