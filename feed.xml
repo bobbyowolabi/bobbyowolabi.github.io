@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artistic Inspiration</title>
+    <description>The Blog of Bobby Owolabi, Software Engineer, where he shares about his exploration of software engineering drawing from inspirations of art.</description>
+    <link>https://www.bobbyowolabi.com</link>
+    <atom:link href="https://www.bobbyowolabi.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Building Netty Source Code on Mac</title>
+        <description>
+          
+          Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers &amp;amp; clients.[1] Netty is a networking software framework used in the core infrastructure at many major organizations including Twitter[a] &amp;amp; Netflix[b] . You can use the following guide to setup your environment so...
+        </description>
+        <pubDate>Mon, 14 Nov 2022 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/11/14/building-netty-source-code</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/11/14/building-netty-source-code</guid>
+      </item>
+    
+      <item>
+        <title>Computer Scientists of the African Diaspora</title>
+        <description>
+          
+          Quote One quarter of one percent (.25%) of computer scientists are black. Below we link to profiles of “all” Black Computer Scientists. Source Williams, Dr. Scott. “Computer Scientists of the African Diaspora.” Computer Scientists of the African Diaspora, May 1997, URL. Context This quote is the first sentence on the...
+        </description>
+        <pubDate>Mon, 28 Mar 2022 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/03/28/computer-scientists-of-the-african-diaspora</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/03/28/computer-scientists-of-the-african-diaspora</guid>
+      </item>
+    
+      <item>
+        <title>On What Makes You Good Part 3 - Find Your Own Cieling</title>
+        <description>
+          
+          In this series, we are exploring “how to be good” went joining a new environment (industry, organization, team, etc). It boils down to a key requirement. We have all seen them … the engineer’s engineer … the all-star … that individual who is just so good at what they do...
+        </description>
+        <pubDate>Mon, 21 Mar 2022 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/03/21/on-what-makes-you-good-part-3-find-your-own-ceiling</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/03/21/on-what-makes-you-good-part-3-find-your-own-ceiling</guid>
+      </item>
+    
+      <item>
+        <title>Quote - Find Your Own Cieling</title>
+        <description>
+          
+          Quote When I first moved to New York it was maybe about a year, year and a half after the whole Wynton Marsalis explosion onto the scene. And somehow I thought to myself, and in hindsight it was the proper way to look at things, that Wynton, by his incredible...
+        </description>
+        <pubDate>Mon, 14 Mar 2022 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/03/14/quote-find-your-own-cieling</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/03/14/quote-find-your-own-cieling</guid>
+      </item>
+    
+      <item>
+        <title>Quote - Always Be Jabbing</title>
+        <description>
+          
+          Quote Always Be Jabbing. Always Be Shipping. Always Be Firing. It’s the same advice, stated in different ways for different audiences. My theory is that lead generation derives from Google rank and that the best way to increase Google rank is to be like a professional fighter: neither jabs nor...
+        </description>
+        <pubDate>Mon, 07 Mar 2022 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/03/07/always-be-jabbing</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/03/07/always-be-jabbing</guid>
+      </item>
+    
+      <item>
+        <title>On What Makes You Good Part 2 - Focus on Your Strengths</title>
+        <description>
+          
+          In this series, we are exploring “how to be good” went joining a new environment (industry, organization, team, etc). It boils down to a key requirement. What makes one good? To start, the requirement is You must actively demonstrate your strengths as soon as possible. What Are Strengths? For our...
+        </description>
+        <pubDate>Mon, 28 Feb 2022 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/02/28/on-what-makes-you-good-part-2-focus-on-your-strengths</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/02/28/on-what-makes-you-good-part-2-focus-on-your-strengths</guid>
+      </item>
+    
+      <item>
+        <title>It Works But I Don't Know Why Part 1 - Address Your Mindset</title>
+        <description>
+          
+          In this series, we are exploring ecouraging insights and techniques to deal with the sentiment of “It Works But I Don’t Know Why”. Address Your Mindset The answer to the following question will not only have a big impact on your level of enjoyment and happiness as a software engineer,...
+        </description>
+        <pubDate>Mon, 21 Feb 2022 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/02/21/it-works-but-i-dont-know-why-part-1-address-your-mindset</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/02/21/it-works-but-i-dont-know-why-part-1-address-your-mindset</guid>
+      </item>
+    
+      <item>
+        <title>Quote - Blogging Changed My Life</title>
+        <description>
+          
+          Quote In 2004 I began this blog. I don’t mean to be overly dramatic, but it changed my life. Everything that comes after was made possible by this blog. Source Atwood, Jeff. “About Me.” Blog Post. “Coding Horror” programming and human factors. 02 Feb 2004. Web. 24 Jan 2022. Context...
+        </description>
+        <pubDate>Mon, 14 Feb 2022 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/02/14/quote-blogging-changed-my-life</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/02/14/quote-blogging-changed-my-life</guid>
+      </item>
+    
+      <item>
+        <title>Schedule Jekyll Posts With GitHub</title>
+        <description>
+          
+          tldr; You can effectively schedule your jekyll posts on Github Pages via a GitHub Action to build your site at a regular scheduled time and future date your posts. [Skip to Steps] First Scheduled Post If all goes well, the post you are reading now will be my first post...
+        </description>
+        <pubDate>Mon, 07 Feb 2022 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/2022/02/07/schedule-jekyll-posts-with-github</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2022/02/07/schedule-jekyll-posts-with-github</guid>
+      </item>
+    
+      <item>
+        <title>On What Makes You Good Part 1 - The Requirement</title>
+        <description>
+          
+          In this series, we are exploring “how to be good” went joining a new environment (industry, organization, team, etc). It boils down to a key requirement. Whenever you join a new industry, company, team, etc … You must do the following … You must actively demonstrate your strengths [a] as...
+        </description>
+        <pubDate>Thu, 09 Dec 2021 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/2021/12/09/on-what-makes-you-good-part-1-the-requirement</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2021/12/09/on-what-makes-you-good-part-1-the-requirement</guid>
+      </item>
+    
+      <item>
+        <title>Mac Terminal Novel Profile in iTerm2</title>
+        <description>
+          
+          Some people like the Matrix black white green profile scheme. Or maybe some just like the standard black and white. But I like the novel profile from Mac terminal. After the prompting of some colleagues a few years ago, I started using iTerm2. When I switched over to iTerm2, there...
+        </description>
+        <pubDate>Thu, 14 Oct 2021 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/2021/10/14/mac-terminal-novel-profile-in-iterm2</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2021/10/14/mac-terminal-novel-profile-in-iterm2</guid>
+      </item>
+    
+      <item>
+        <title>Happenings</title>
+        <description>
+          
+          Great Video Conferencing / Vlogging Setup Tips That Won’t Break the Budget Good, Better, Best - creating the ultimate remote worker webcam setup on a budget I have a Sony Alpha a5000 mirrorless digital camera and didn’t realize something like that could be turned into a high quality webcam. Very...
+        </description>
+        <pubDate>Mon, 27 Apr 2020 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/2020/04/27/happenings</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2020/04/27/happenings</guid>
+      </item>
+    
+      <item>
+        <title>Proofreading Hack</title>
+        <description>
+          
+          I don’t know about you, but when I write, I often omit words. It sounds great and complete in my mind, but when I look back and see the mistakes, it looks like I’m a bad writer or have a lack of care (especially in emails). Sometimes, I write a...
+        </description>
+        <pubDate>Mon, 23 Mar 2020 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/proofreading-hack</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/proofreading-hack</guid>
+      </item>
+    
+      <item>
+        <title>Happenings</title>
+        <description>
+          
+          I have a big of backlog of interesting “happenings” around the web that I have been meaning to share for some time. Susan Fowler Announces Her Memoir About Her Time @ Uber Whistleblower: My Journey to Silicon Valley and Fight for Justice at Uber Automattic Aquires Tumblr Tumblr the Day...
+        </description>
+        <pubDate>Tue, 17 Mar 2020 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/2020/03/17/happenings</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/2020/03/17/happenings</guid>
+      </item>
+    
+      <item>
+        <title>It Works But I Don't Know Why</title>
+        <description>
+          
+          It Works But I Don't Know Why Do you know that feeling when you get a section of code to work and you have no idea why it did? Or just as uneasy of a feeling, when you can’t get a section of code to work (or don’t even know...
+        </description>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/it-works-but-i-dont-know-why-introduction</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/it-works-but-i-dont-know-why-introduction</guid>
+      </item>
+    
+      <item>
+        <title>Quote - What Happens When You Stop Exploring</title>
+        <description>
+          
+          “As you learn there will always be new challenges and new territory to explore. Programmers who refuse to keep exploring will stagnate, forget their joy, and get bored with their craft.” Source Haverbeke, Marijn. “Introduction.” Eloquent JavaScript: A Modern Introduction to Programming. 2nd ed., No Starch Press, 2014. Context This...
+        </description>
+        <pubDate>Mon, 02 Sep 2019 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/quote-what-happens-when-you-stop-exploring</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/quote-what-happens-when-you-stop-exploring</guid>
+      </item>
+    
+      <item>
+        <title>Saxophonists Who Code</title>
+        <description>
+          
+          The saxophone is my favorite instrument. I love to hear players with great tones [a]. The piano is great as well. I love it when people play cool chords in succession: But for me, it’s the saxophone anyday. While I wrote about how programming is not like playing music; I...
+        </description>
+        <pubDate>Fri, 07 Dec 2018 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/saxophonist-who-code</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/saxophonist-who-code</guid>
+      </item>
+    
+      <item>
+        <title>Sound Basics Part 2 - Properties of Sound</title>
+        <description>
+          
+          We now have an idea of what sound is; namely, a disruption in a medium, such as air, that causes molecules to hit each other causing a propagation (wave) of that initial disruption to the ears of a listener. This is a good foundation for us to build off of,...
+        </description>
+        <pubDate>Tue, 09 Jan 2018 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/sound-basics-part-2-properties-of-sound</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/sound-basics-part-2-properties-of-sound</guid>
+      </item>
+    
+      <item>
+        <title>Programming Is Not Like Playing Music</title>
+        <description>
+          
+          Over the years I’ve come across various blog posts and articles stating that creating music is very similar to writing software. They describe the creative process that fuels both fields. They point to the number of musicians that have functioned successfully as software engineers. This is all true, but there...
+        </description>
+        <pubDate>Mon, 06 Nov 2017 00:00:00 -0800</pubDate>
+        <link>https://www.bobbyowolabi.com/programming-is-not-like-playing-music</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/programming-is-not-like-playing-music</guid>
+      </item>
+    
+      <item>
+        <title>Sound Basics Part 1 - What is Sound?</title>
+        <description>
+          
+          A lot of times when sound is described, a graph of a sound wave is shown. The sine function is discussed … wasn’t that about angles of a triangle? We are told sound is simply changes in pressure. This all is somehow represented in digital form as 0s and 1s....
+        </description>
+        <pubDate>Tue, 31 Oct 2017 00:00:00 -0700</pubDate>
+        <link>https://www.bobbyowolabi.com/sound-basics-part-1-what-is-sound</link>
+        <guid isPermaLink="true">https://www.bobbyowolabi.com/sound-basics-part-1-what-is-sound</guid>
+      </item>
+    
+  </channel>
+</rss>

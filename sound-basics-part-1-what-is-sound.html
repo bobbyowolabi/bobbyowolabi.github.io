@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Sound Basics Part 1 - What is Sound?</title>
+
+  <meta name="author" content="Bobby Owolabi" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Artistic Inspiration - The Blog of Bobby Owolabi, Software Engineer, where he shares about his exploration of software engineering drawing from inspirations of art." href="/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Sound Basics Part 1 - What is Sound?" />
+  
+
+   
+  <meta property="og:description" content="A lot of times when sound is described, a graph of a sound wave is shown. The sine function is discussed … wasn’t that about angles of a triangle? We are told sound is simply changes in pressure. This all is somehow represented in digital form as 0s and 1s....">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="https://www.bobbyowolabi.com/sound-basics-part-1-what-is-sound" />
+  <link rel="canonical" href="https://www.bobbyowolabi.com/sound-basics-part-1-what-is-sound" />
+  
+
+  
+  <meta property="og:image" content="https://www.bobbyowolabi.com/img/dark-scale-logo.png" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Sound Basics Part 1 - What is Sound?" />
+  
+
+  
+  <meta name="twitter:description" content="A lot of times when sound is described, a graph of a sound wave is shown. The sine function is discussed … wasn’t that about angles of a triangle? We are told sound is simply changes in pressure. This all is somehow represented in digital form as 0s and 1s....">
+  
+
+  
+  <meta name="twitter:image" content="https://www.bobbyowolabi.com/img/dark-scale-logo.png" />
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://www.bobbyowolabi.com">Artistic Inspiration</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/about">About Me</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="https://www.bobbyowolabi.com ">
+	      <img class="avatar-img" src="/img/dark-scale-logo.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row	">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>Sound Basics Part 1 - What is Sound?</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on October 31, 2017</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>A lot of times when sound is described, a graph of a sound wave is shown.  The sine function is discussed … wasn’t that about angles of a triangle?  We are told sound is simply changes in pressure.  This all is somehow represented in digital form as 0s and 1s.  What does all of this mean?  How can looking at a sine graph help me understand and describe the sound of a saxophone versus a laughing baby?  I want to present these concepts through the eyes of a true beginner.  I hope to achieve this by asking questions of a beginner.</p>
+
+<h3 id="what-is-sound">What is Sound?</h3>
+<p>In attempting to understand sound, it’s important to separate ourselves from the experience of hearing because it is different from what sound is at it’s core.  But why would I want to put aside the notion of hearing?  That seems pretty important in understanding sound.  The reason for this distinction is that the term “sound”, in English, interchangeably refers to two things <sup><a href="#communication-acoustics">[1]</a></sup>:</p>
+<ol>
+  <li>The physical phenonenom</li>
+  <li>The perception</li>
+</ol>
+
+<p>Our hearing of sound is merely an interpretation our body performs for us of a physical event.  We often call these physical events signals.  At a high level, the following occurs <sup><a href="#wiki-perception">[2]</a></sup>:</p>
+<ol>
+  <li>Our ears receive information (signals)</li>
+  <li>Our body interprets this information (our nervous system)</li>
+  <li>Our senses are stimulated (we hear it via our sensory system)</li>
+</ol>
+
+<blockquote>
+  <p><em>What are the signals our ears received?</em></p>
+</blockquote>
+
+<blockquote>
+  <p><a href="https://en.wikipedia.org/wiki/If_a_tree_falls_in_a_forest">If a tree falls in a forest and no one is around to hear it, does it make a sound?</a></p>
+</blockquote>
+
+<p>I hope that through our exploration of this topic, we’ll be able to provide more insight into the questions above.</p>
+
+<h3 id="what-comprises-sound">What Comprises Sound?</h3>
+<p>Sound Involves Three Actors <sup><a href="#music-and-computers">[3]</a></sup>:</p>
+<ol>
+  <li>An Object</li>
+  <li>Medium</li>
+  <li>Listener</li>
+</ol>
+
+<p>At its core, this boils down to physics and perception <sup><a href="#music-and-computers">[3]</a></sup>.  The first two things, an object &amp; medium are where the physics occurs; the listener is where the perception occurs <sup><a href="#music-and-computers">[3]</a></sup>.</p>
+
+<p>The Interaction of the Actors Produces Sound <sup><a href="#music-and-computers">[3]</a></sup>:</p>
+<ol>
+  <li>The Movement of an Object</li>
+  <li>The Transmission of the Result of the Movement Through a Medium</li>
+  <li>A Listener Perceives the Transmission of the Movement as Sound</li>
+</ol>
+
+<blockquote>
+  <p>“All things that make sound move, and in some very metaphysical sense, all things that move (if they don’t move too slowly or too quickly) make sound.” <sup><a href="#music-and-computers">[3]</a></sup></p>
+</blockquote>
+
+<h3 id="the-production-of-sound">The Production of Sound</h3>
+<h4 id="what-is-the-result-of-the-movement-that-we-are-hearing">What is the Result of the Movement That We Are Hearing?</h4>
+<p>Another way to put it is a question we asked earlier, “What are the signals our ears are receiving?”  Before diving right into the result of the movement, let’s start at the molecular level and work our way back up.</p>
+
+<p>There are 3 different phases of matter:</p>
+<ol>
+  <li>Solids</li>
+  <li>Liquids</li>
+  <li>Gases</li>
+</ol>
+
+<p>Matter, for the purposes of our discussion, is made up of atoms that bond together to form molecules.</p>
+<h5 id="solids">Solids</h5>
+<p>Solids have their molecules tightly packed together.  They keep their shape and not much gets through them. <sup><a href="#thompson-mike">[4]</a></sup></p>
+<h5 id="liquids">Liquids</h5>
+<p>Liquids have their molecules spaced further apart.  Things can move through them but there is some resistance.  <sup><a href="#thompson-mike">[4]</a></sup></p>
+<h5 id="gases">Gases</h5>
+<p>Gases have molecules that are relatively far apart.  Objects, including us, can easily move through this medium <sup><a href="#thompson-mike">[4]</a></sup>.  It is this movement that results in the production of sound.  Air is comprised of invisible gases that are all around us.  It is made up of certain molecules mainly nitrogen and oxygen.</p>
+
+<p>Let’s get back to our original question, what is this “result of the movement” that we are hearing?  Focusing on the medium of air (as sound can occur in other mediums), the result of the movement we hear are air molecules hitting each other.  How do these air molecules hitting each other arrive to my ear so I can perceive it as sound?</p>
+
+<h4 id="how-do-colliding-air-molecules-arrive-to-our-ear">How Do Colliding Air Molecules Arrive to Our Ear?</h4>
+<p>As an object moves, it pushes and pulls at the surrounding air thus causing the air molecules to indeed hit each other, producing something called pressure.  The physical act of the molecules hitting each other is not pressure, but rather, the force that is exerted when they collide with themselves and other objects is what we call pressure. <sup><a href="#ucar-what-is-air">[5]</a></sup></p>
+
+<p>Not only do the air molecules hit each other producing pressure, but they also produce a wave.  It is through this wave that they arrive at our ears.</p>
+
+<h5 id="sound-waves">Sound Waves</h5>
+<p>A wave like this?</p>
+<iframe src="https://giphy.com/embed/3o7aTBq3lldT3hx2RW" width="480" height="270" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+
+<p>Sort of.</p>
+
+<p>The following is a clip from the Khan Academy and gives a good illustration of how the air molecules interact when sound is produced:</p>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/-_xZZt99MzY?start=07&amp;end=13" frameborder="0" allowfullscreen=""></iframe>
+
+<p>As seen in the video, this disturbance <sup><a href="#waters">[5]</a></sup> in the air causes the molecules move back and forth and hit other molecules that move back and forth causing a transmission of the initial pressure through the air to arrive to the ears of a listener.  It is this forward and backwards movement of the pressure towards a listener’s ear is described as a wave <sup><a href="#computerphile-digital-audio">[7]</a></sup>.</p>
+
+<p><a href="http://www.acs.psu.edu/drussell/">Professor Dan Russell</a> created an animation that illustrates this wave movement quite well <sup><a href="#russell-particle-motion">[8]</a></sup>:</p>
+
+<p><img src="http://www.acs.psu.edu/drussell/Demos/waves/Lwave-Red-2.gif" width="600" alt="animation showing particle motion for a longitudinal pressure wave highlighting the difference between particle motion and wave propagation." /></p>
+
+<p>As seen in Russell’s animation, the molecules themselves don’t actually travel with the sound <sup><a href="#wiki-sound">[9]</a></sup> but merely transport it a short distance to a neighboring molecule.  It’s this transport at a higher level in terms of groups of molecules that comprise the physical phenomenon of a wave.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<h4 id="what-are-the-signals-our-ears-received">What are the signals our ears received?</h4>
+<p>I believe we can now comfortably use the term “sound wave.”  Sound waves are the signal that are reaching our ears.  Sound waves are a result of a disruption in a medium, such as air, that causes molecules to hit each other causing a propagation or wave of that initial disruption to the ears of a listener.</p>
+
+<h4 id="are-there-conditions-where-sound-is-not-possible">Are There Conditions Where Sound is Not Possible?</h4>
+<p>Why yes!  We described that sound results from a disturbance (movement) that occurs in a medium.  There are “things” in that medium (molecules), that propagate that disturbance to a listener.  What would be an example of a place where there would be nothing to propagate the disturbance produced by a moving object?  Space.  In space, there are no particles that can propagate the disturbance of a moving object.</p>
+
+<h5 id="are-there-conditions-on-earth-where-sound-is-not-possible">Are There Conditions on Earth Where Sound Is Not Possible?</h5>
+
+<blockquote>
+  <p>Vacuum is space void of matter. <sup><a href="#wiki-vacuum">[10]</a></sup></p>
+</blockquote>
+
+<p>We can create such conditions.  We can put an alarm clock in a jar and remove all of the air via a vacuum pump <sup><a href="#pass-my-exams-sound">[11]</a></sup>.  While there is air in the jar, the ringing of the alarm clock will be audible; however, the sound will grow faint until all of the air is removed, at which it will be inaudible <sup><a href="#pass-my-exams-sound">[11]</a></sup>.</p>
+
+<h4 id="how-do-sound-signals-compare-to-others">How Do Sound Signals Compare to Others?</h4>
+<p>We only talked about one kind of signal in our exploration, sound.  However, there are different physical signals around us.  There is a whole field called signal processing that is based on the analysis and techniques around modifying and mimicking these types of signals <sup><a href="#wiki-signal-processing">[12]</a></sup>.</p>
+
+<p>We know air is a vibration (aka disturbance, pressure, etc.) that propagates through a medium and can be “decrypted” by our ears <sup><a href="#kalenzaga-shazam">[13]</a></sup>; but light is also a vibration.  The difference is that the vibration of light is much faster than sound and our ears weren’t designed to hear those types of vibrations; whereas, our eyes were designed to interpret the vibration of light.<sup><a href="#kalenzaga-shazam">[13]</a></sup>.</p>
+
+<h4 id="if-a-tree-falls-in-a-forest-and-no-one-is-around-to-hear-it-does-it-make-a-sound"><a href="https://en.wikipedia.org/wiki/If_a_tree_falls_in_a_forest">“If a tree falls in a forest and no one is around to hear it, does it make a sound?”</a></h4>
+<p>We can now answer this question.  If we are referring to sound as a physical phenomenon; then yes, the tree falling will cause a physical sound event that could be analyzed and recorded <sup><a href="#communication-acoustics">[1]</a></sup>. If we are referring to sound in terms of perception; then no, there is no listener around to actually hear the event <sup><a href="#communication-acoustics">[1]</a>.</sup></p>
+
+<h3 id="references">References</h3>
+<p>[<a name="communication-acoustics">1</a>]
+Pulkki, Ville; Karjalainen, <em>Matti. Communication Acoustics: An Introduction to Speech, Audio and Psychoacoustics</em>. Chapter 2 Physics of Sound. John Wiley &amp; Sons, 2014. Print.</p>
+
+<p>[<a name="wiki-perception">2</a>] Wikipedia contributors. <a href="https://en.wikipedia.org/wiki/Perception">“Perception.”</a> Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 25 Sep. 2017. Web. 3 Oct. 2017</p>
+
+<p>[<a name="music-and-computers">3</a>]
+Burk, Phil, et al. “Chapter 1: The Digital Representation of Sound, Part One: Sound and Timbre; Section 1.1: What Is Sound?” <a href="http://cmc.music.columbia.edu/MusicAndComputers/">Music and computers: a theoretical and historical approach</a>, Self-Published Online. 2011. Accessed 8 Sep. 2017.</p>
+<blockquote>
+  <p><strong>Authors</strong><br />
+Phil Burk, SoftSynth.com<br />
+Larry Polansky, Department of Music, Dartmouth College<br />
+Douglas Repetto, Computer Music Center, Columbia University<br />
+Mary Roberts<br />
+Dan Rockmore, Department of Mathematics, Dartmouth College<br /></p>
+</blockquote>
+
+<p>[<a name="thompson-mike">4</a>] Thompson, Mike. [self-titled]. <a href="https://www.youtube.com/watch?v=NO9F2UJ1EcY">“Did You Ever Wonder: How Far Apart Are Air Molecules?”</a>. 26 March 2015. Accessed 29 September 2017.</p>
+
+<p>[<a name="ucar-what-is-air">5</a>] 
+The University Corporation for Atmospheric Research. <a href="https://eo.ucar.edu/kids/sky/air1.htm">“What is Air?”</a>. Article.  Kids’ Crossing.  25 March 2005. Accessed 29 September 2017.</p>
+
+<p>[<a name="waters">6</a>] Waters, Dan. <a href="https://blogs.msdn.microsoft.com/dawate/2009/06/22/intro-to-audio-programming-part-1-how-audio-data-is-represented/">“Intro to Audio Programming, Part 1: How Audio Data is Represented.”</a> Blog post.  Game Theory: A blog by Microsoft Academic Developer Evangelist, Dan Waters. 22 Jun. 2009. Accessed 8 Sep. 2017.</p>
+
+<p>[<a name="computerphile-digital-audio">7</a>] Fowler, David Domminney [Computerphile]. <a href="https://www.youtube.com/watch?v=1RIA9U5oXro">“How Digital Audio Works - Computerphile”</a>. 26 October 2015. Accessed. 2 October 2017.</p>
+
+<p>[<a name="russell-particle-motion">8</a>] Russell, Daniel. “Longitudinal Waves”. Acoustics and Vibration Animations; Section: Longitudinal and Transverse Wave Motion. 26, August 1998. Animations Updated 5 August 2016. HTML Code Modified 18 March 2014. Accessed 20 October 2017.</p>
+<blockquote>
+  <p><strong>License</strong>  <br />
+This work by <a href="http://www.acs.psu.edu/drussell/demos.html">Dan Russell</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+Based on a work at http://www.acs.psu.edu/drussell/demos.html.</p>
+</blockquote>
+
+<p>[<a name="wiki-sound">9</a>]
+Wikipedia contributors. <a href="https://en.wikipedia.org/wiki/Sound#Physics_of_sound">“Sound.”</a> Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 24 Sep. 2017. Web. 29 Sep. 2017.</p>
+
+<p>[<a name="wiki-vacuum">10</a>] Wikipedia contributors. <a href="https://en.wikipedia.org/wiki/Vacuum">“Vacuum.”</a> Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 25 Oct. 2017. Accessed. 30 Oct. 2017.</p>
+
+<p>[<a name="pass-my-exams-sound">11</a>] <a href="http://www.passmyexams.co.uk/GCSE/physics/sound-waves.html">“What is Sound?”</a> PassMyExams. 28 May 2017. Accessed. 30 Oct. 2017.</p>
+
+<p>[<a name="wiki-signal-processing">12</a>] Wikipedia contributors. <a href="https://en.wikipedia.org/wiki/Signal_processing">“Signal processing.”</a> Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 28 Oct. 2017. Web. 30 Oct. 2017.</p>
+
+<p>[<a name="kalenzaga-shazam">13</a>] Kalenzaga, Christophe. <a href="http://coding-geek.com/how-shazam-works/">“How does Shazam work.”</a> Blog post. Coding Geek: A blog about IT, programming and Java. 23 May 2015. Accessed 28 September 2017.</p>
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a href="https://twitter.com/intent/tweet?text=Sound+Basics+Part+1+-+What+is+Sound%3F+https://www.bobbyowolabi.com/sound-basics-part-1-what-is-sound"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/phd-needed-for-dsp-research-or-engineering" data-toggle="tooltip" data-placement="top" title="Is a PhD Needed for Signal Processing Research or Engineering?">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/programming-is-not-like-playing-music" data-toggle="tooltip" data-placement="top" title="Programming Is Not Like Playing Music">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'bobbyowolabi';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          <li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><!-- Hat Tip to Hakim.se for the email obsfucation approach below -->
+              <a href="mailto:xxxxxxbobbyxxxxx@bobbyowolabi.com" onmouseover="this.href=this.href.replace(/x/g,'');" ontouchstart="this.href=this.href.replace(/x/g,'');" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://twitter.com/bobbyowolabi" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+        </ul>
+      <p class="copyright text-muted">
+        © 2017 - 2022
+        &nbsp;&bull;&nbsp;
+        Bobby Owolabi
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        <a href="/privacy">Privacy Notice</a>
+      </p>
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-99067919-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+  
+  </body>
+</html>

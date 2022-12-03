@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Building Netty Source Code on Mac</title>
+
+  <meta name="author" content="Bobby Owolabi" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Artistic Inspiration - The Blog of Bobby Owolabi, Software Engineer, where he shares about his exploration of software engineering drawing from inspirations of art." href="/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Building Netty Source Code on Mac" />
+  
+
+   
+  <meta property="og:description" content="Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers &amp;amp; clients.[1] Netty is a networking software framework used in the core infrastructure at many major organizations including Twitter[a] &amp;amp; Netflix[b] . You can use the following guide to setup your environment so...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="https://www.bobbyowolabi.com/2022/11/14/building-netty-source-code" />
+  <link rel="canonical" href="https://www.bobbyowolabi.com/2022/11/14/building-netty-source-code" />
+  
+
+  
+  <meta property="og:image" content="https://www.bobbyowolabi.com/img/dark-scale-logo.png" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Building Netty Source Code on Mac" />
+  
+
+  
+  <meta name="twitter:description" content="Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers &amp;amp; clients.[1] Netty is a networking software framework used in the core infrastructure at many major organizations including Twitter[a] &amp;amp; Netflix[b] . You can use the following guide to setup your environment so...">
+  
+
+  
+  <meta name="twitter:image" content="https://www.bobbyowolabi.com/img/dark-scale-logo.png" />
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://www.bobbyowolabi.com">Artistic Inspiration</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/about">About Me</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="https://www.bobbyowolabi.com">
+	      <img class="avatar-img" src="/img/netty.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row	">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>Building Netty Source Code on Mac</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on November 14, 2022</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <blockquote>
+  <p>Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers &amp; clients.<sup><a href="#netty-documentation">[1]</a></sup></p>
+</blockquote>
+
+<p>Netty is a networking software framework used in the <a href="https://netty.io/wiki/adopters.html">core infrastructure at many major organizations</a> including Twitter<sup><a href="#netty-at-twitter">[a]</a></sup> &amp; Netflix<sup><a href="#netty-at-netflix">[b]</a></sup> .</p>
+
+<p>You can use the following guide to setup your environment so you can build the source code:</p>
+
+<p><a href="https://netty.io/wiki/setting-up-development-environment.html"><strong>[Netty Developer Guide Steps to Build the Source Code]</strong></a></p>
+
+<p>There were some modifications I needed to make to get the code to build successfully.  The following are the steps I used to build the source code on a mac.</p>
+
+<h1 id="steps">Steps</h1>
+
+<ol>
+  <li>
+    <p><strong>Install the Java 11 JDK</strong> <sup><a href="#why-netty-needs-java11">[c]</a></sup>. <br />
+ This can be downloaded from <a href="https://www.oracle.com/java/technologies/downloads/#java11">Oracle</a> or number of other vendors as listed in the developer guide.</p>
+
+    <p>I downloaded the <code class="highlighter-rouge">x64 DMG Installer</code> and went through the prompts.</p>
+
+    <p>I recommend updating your <code class="highlighter-rouge">.bash_profile</code><sup><a href="#bash-profile">[d]</a></sup> file to automatically set your <code class="highlighter-rouge">JAVA_HOME</code> environment variable.</p>
+
+    <p>Add the following anywhere in the file:</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="nb">alias </span><span class="nv">setJdk11</span><span class="o">=</span><span class="s1">'export JAVA_HOME=$(/usr/libexec/java_home -v 11)'</span>
+     setJdk11
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Install <a href="https://maven.apache.org/">Maven</a></strong>  <br />
+ I had maven version 3.5.3 installed (Apache Maven 3.8.6 is the latest release).</p>
+  </li>
+  <li>
+    <p><strong>Install <a href="https://git-scm.com/">Git</a></strong> <br />
+ Not necessary to build, but needed to commit and contribute code changes.</p>
+
+    <blockquote>
+      <p>“if using MacOS, when you commit code, CRLF will be automatically converted to LF” by setting the following property:</p>
+      <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git config <span class="nt">--global</span> core.autocrlf input
+</code></pre></div>      </div>
+    </blockquote>
+  </li>
+  <li><strong>Install Additional Listed Packages</strong> <br />
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> brew install autoconf automake libtool openssl
+</code></pre></div>    </div>
+    <p>These are some packages listed in the guide to install.</p>
+  </li>
+  <li><strong>Install Apple Command Line Tools</strong><sup><a href="#command-line-tools-note">[e]</a></sup> <br />
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> xcode-select <span class="nt">--install</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Build the Source!</strong> <br />	
+ Run the following command in the base soure code directory.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ./mvnw clean install <span class="nt">-DskipTests</span> <span class="nt">-T1C</span>
+</code></pre></div>    </div>
+
+    <p>If successful, the following will be printed.</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="o">[</span>INFO] <span class="nt">------------------------------------------------------------------------</span>
+ <span class="o">[</span>INFO] BUILD SUCCESS
+ <span class="o">[</span>INFO] <span class="nt">------------------------------------------------------------------------</span>
+ <span class="o">[</span>INFO] Total <span class="nb">time</span>:  02:36 min <span class="o">(</span>Wall Clock<span class="o">)</span>
+ <span class="o">[</span>INFO] Finished at: 2022-11-12T00:31:11-08:00
+ <span class="o">[</span>INFO] <span class="nt">------------------------------------------------------------------------</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h1 id="what-i-didnt-do">What I Didn’t Do</h1>
+<p>Because I got a few build errors in the <code class="highlighter-rouge">netty5-transport-native-unix-common</code> module, I immedaitely thought I had to go through the steps in the section of the developer guide entitled <a href="https://netty.io/wiki/native-transports#building-the-native-transports">“Building the native transports”</a>.  It turns out that it was not necessary; however, it confused me a bit.</p>
+
+<h3 id="references">References</h3>
+<p>[<a name="netty-documentation">1</a>] <em>Various Authors</em>. “<a href="https://netty.io/index.html">Netty: Home.</a>” The Netty Project, 2022, <a href="https://netty.io/index.html">URL</a>.</p>
+
+<p>[<a name="netty-at-twitter-with-finagle">2</a>] <em>Author Unknown</em>. “<a href="https://blog.twitter.com/engineering/en_us/a/2014/netty-at-twitter-with-finagle">Netty at Twitter with Finagle</a>.” Engineering, Twitter, 13 Feb 2014, <a href="https://blog.twitter.com/engineering/en_us/a/2014/netty-at-twitter-with-finagle">URL.</a></p>
+
+<p>[<a name="open-sourcing-zuul-2">3</a>] (Gonigberg, Arthur; Cohen, Mikey; Smith, Michael; Varadarajan,Gaya; Vinukonda, Sudheer; Aroskar, Susheel). “<a href="https://netflixtechblog.com/open-sourcing-zuul-2-82ea476cb2b3">Open Sourcing Zuul 2</a>.” Netflix Technology Blog, <a href="https://netflixtechblog.medium.com/">Netflix TechBlog</a>, 21 May 2018, <a href="https://netflixtechblog.com/open-sourcing-zuul-2-82ea476cb2b3">URL</a>.</p>
+
+<h3 id="notes">Notes</h3>
+<p>[<a name="netty-at-twitter">a</a>] Twitter’s core services are built with <a href="https://twitter.github.io/finagle/guide/developers/Extending.html#transport-layer">Finagle</a>, which is built ontop of <a href="https://netty.io/index.html">Netty</a>.<sup><a href="#netty-at-twitter-with-finagle">[2]</a></sup></p>
+
+<p>[<a name="netty-at-netflix">b</a>] Zuul 2 handles all the requests that come into Netflix’s cloud infrastructure “handling the network protocol, web server, connection management and proxying work.”  Netty is “responsible for handling the network protocol, web server, connection management and proxying work”.<sup><a href="#open-sourcing-zuul-2">[3]</a></sup></p>
+
+<p>[<a name="why-netty-needs-java11">c</a>] The documentation states java 8 is needed; however, the <code class="highlighter-rouge">netty5-parent</code> needs at least java 11.:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>INFO] <span class="nt">---</span> maven-enforcer-plugin:3.0.0:enforce <span class="o">(</span>enforce-tools<span class="o">)</span> @ netty5-parent <span class="nt">---</span>
+<span class="o">[</span>WARNING] Rule 0: org.apache.maven.plugins.enforcer.RequireJavaVersion failed with message:
+Detected JDK Version: 1.8.0-77 is not <span class="k">in </span>the allowed range <span class="o">[</span>11.0.0,<span class="o">)</span><span class="nb">.</span>
+</code></pre></div></div>
+
+<p>[<a name="bash-profile">d</a>] The <code class="highlighter-rouge">.bash_profile</code> is located in your home directory <code class="highlighter-rouge">/Users/$USER/.bash_profile</code>.</p>
+
+<p>[<a name="command-line-tools-note">e</a>] <code class="highlighter-rouge">xcrun</code> is needed by the <code class="highlighter-rouge">netty5-transport-native-unix-common</code> module.  <a href="https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a">You can obtain this by installing Apple Command Line Tools</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>INFO] <span class="nt">---</span> maven-antrun-plugin:1.8:run <span class="o">(</span>build-native-lib<span class="o">)</span> @ netty5-transport-native-unix-common <span class="nt">---</span>
+<span class="o">[</span>INFO] Executing tasks
+
+main:
+     <span class="o">[</span><span class="nb">exec</span><span class="o">]</span> xcrun: error: invalid active developer path <span class="o">(</span>/Library/Developer/CommandLineTools<span class="o">)</span>, missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+</code></pre></div></div>
+
+<p>[<a name="netty-logo">*</a>]<a href="https://netty.io/index.html"><em>Netty Logo Copyright © 2022 The Netty project</em></a></p>
+
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a href="https://twitter.com/intent/tweet?text=Building+Netty+Source+Code+on+Mac+https://www.bobbyowolabi.com/2022/11/14/building-netty-source-code"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/2022/03/28/computer-scientists-of-the-african-diaspora" data-toggle="tooltip" data-placement="top" title="Computer Scientists of the African Diaspora">&larr; Previous Post</a>
+        </li>
+        
+        
+      </ul>
+
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          <li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><!-- Hat Tip to Hakim.se for the email obsfucation approach below -->
+              <a href="mailto:xxxxxxbobbyxxxxx@bobbyowolabi.com" onmouseover="this.href=this.href.replace(/x/g,'');" ontouchstart="this.href=this.href.replace(/x/g,'');" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://twitter.com/bobbyowolabi" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+        </ul>
+      <p class="copyright text-muted">
+        © 2017 - 2022
+        &nbsp;&bull;&nbsp;
+        Bobby Owolabi
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        <a href="/privacy">Privacy Notice</a>
+      </p>
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-99067919-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+  
+  </body>
+</html>
