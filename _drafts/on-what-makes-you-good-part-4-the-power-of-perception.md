@@ -15,7 +15,7 @@ Imagine an engineer working in an organization where their colleagues generally 
 
 Now, imagine an engineer working in an organization and thriving.  They are thought of as sharp, a high value contributor and good teammate.
 
-What if I told you that these engineers are the same person ... How could this be?
+What if I told you that these engineers are the same person ... Is this even possible?
 
 It may seem odd but it is indeed possible for the same engineer to have a vastly different perceptions <sup>[[a]](#definition-of-terms)</sup> from others in different environments and situations.
 
