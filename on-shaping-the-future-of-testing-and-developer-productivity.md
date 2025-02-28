@@ -11,32 +11,32 @@ I'm excited about the [opportunity][job] at Coinbase and wanted to share my thou
 ## Why I'm Passionate About This Position 💪🏾
 Throughout my career, I have always gravitated toward what I coined "libraries, frameworks, and utilities." I have always found satisfaction in making the lives of my fellow engineers easier. This has often manifested in testing, which I take seriously. 
 
-### **Examples of Personal Projects**:
+### **Self-Driven Testing Improvements**:
 - 📈 **Apache NiFi Data Flow:** Developed a human-readable to binary converter for a legacy format, making tests more readable and flexible.  
-- 🐦 **Twitter Developer Platform:** Automated test user creation, credential storage, and retrieval for testing saving collegues developer time.
+- 🐦 **Twitter Developer Platform:** Automated test user creation, credential storage, and retrieval for testing, saving colleagues' developer time.
 - 🍿 **Netflix:** While working in the Developer Productivity org I researched JavaScript test frameworks and standards in the company and wrote the first test for a metrics dashboard written in TypeScript used by the Consumer Engineering organization.  
 
-My career has increasingly focused on the areas of testing infrastructure & developer productivity as I will describe below.
+My career has increasingly focused on testing infrastructure and developer productivity, as I'll describe below.
 
 ---
 
-## **My Insights & Contributions**  
+## **My Insights on Your Post**  
 Below are my thoughts on the responsibilities outlined in your post.  
 
 ### **Improve Testing Reliability and Speed 🏃🏾‍♂️** 
 As test execution moves closer to a real system, it inevitably becomes more flaky. Many system/integration tests suffer from this issue, often addressed through retries and other strategies to filter out false failures.  
 
 #### **Key Areas of Focus**:
-- 📊 **Test Execution Time Metrics:** Many frameworks generate this data, which we can track and provide as feedback throughout the development lifecycle.  We can also use this data as a basis for setting OKRs and org / company wide goals. 
+- 📊 **Test Execution Time Metrics:** Many frameworks generate this data, which we can track and provide as feedback throughout the development lifecycle.  We can also use this data as a basis for setting OKRs and org/company-wide goals. 
 - 🛠️ **Mocking Dependencies:** Explore opportunities to mock external dependencies (e.g., **Testcontainers, Devcontainers**) to improve reliability.  
-- ▶️ **Record and Replay** - Capture real production traffic and efficiently replay it in a local test environment to enhance speed and reliability.
+- ▶️ **Record and Replay**: Capture real production traffic and efficiently replay it in a local test environment to enhance speed and reliability.
 - ⏳ **Performance Profiling:** Identify bottlenecks in tests and establish best practices for optimizing test execution time.  
 -  🔄 **Shift-Left Testing:** Introduce testing strategies earlier in the development cycle to catch issues sooner and reduce costly late-stage debugging.  
 
 ---
 
 ### **Automate Testing at Every Level ⚙️**  
-One of the first challenges will be the **lack of universal definitions** for unit, integration, system, and end-to-end tests. Surprisingly, this varies across organizations and even within different teams (frontend, backend, and language-specific ecosystems).  
+A key challenge is the lack of universal definitions for unit, integration, system, and end-to-end tests." Surprisingly, this varies across organizations and even within different teams (frontend, backend, and language-specific ecosystems).  
 
 #### **How to Address This**:
 - 📖 **Define Test Types:** Establish a **clear company-wide definition** of different test levels.  
@@ -46,7 +46,7 @@ One of the first challenges will be the **lack of universal definitions** for un
 ---
 
 ### **Flaky Test Detection, Self-Healing Automation & Anomaly Detection 🤖**  
-Flaky tests create **frustration and inefficiency** and also decreases developer trust in my their test suites.
+Flaky tests create frustration and inefficiency while also reducing developers' trust in their test suites.
 
 Due to the potential size of the team, deciding whether to **build in-house solutions** or **use external vendors** is a key strategic decision.  
 
