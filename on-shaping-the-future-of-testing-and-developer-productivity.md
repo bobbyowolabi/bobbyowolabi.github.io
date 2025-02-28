@@ -53,12 +53,12 @@ Due to the potential size of the team, deciding whether to **build in-house solu
 #### **Considerations**:
 - 💰 **Vendor Solutions:** Some organizations use **third-party tools** (e.g., **Gradle Enterprise, etc**) to provide **flaky test detection, selective test execution, and remote test execution** without heavy internal investment.  
 - 🏗️ **Building In-House:** If internal investment makes sense, we should determine the **most critical test reliability issues** to tackle first, given team capacity and company goals.  
- 🔍 Cost vs. Flexibility Trade-offs: Weigh the long-term benefits of in-house development (customization, integration) versus vendor solutions (faster setup, ongoing costs, support).
+ 🔍 **Cost vs. Flexibility Trade-offs:** Weigh the long-term benefits of in-house development (customization, integration) versus vendor solutions (faster setup, ongoing costs, support).
 
 ---
 
 ### **Remove Bottlenecks, Introduce Smart Developer Tools & Boost Engineering Productivity 🚀**  
-Create developer personas and understand deeply the developer workflow in used ecosystems in the comapny.  Get anecdotal evidence of problem poiints through interviews.  Look at the metrics to see where is the longest parts of the development loop.
+Create developer personas and understand deeply the developer workflow in used ecosystems in the comapny.  Get anecdotal evidence of problem points through interviews.  Look at the metrics to see where is the longest parts of the development loop.
 
 
 Some areas of Exploration:
@@ -85,7 +85,7 @@ Quality metrics provide actionable insights, but **standardization across testin
 
 ### **Partner with Teams Across the Company to Drive Best Practices & Make an Impact Company-Wide 🤝**  
 - 📚 **Documentation & Training:** Create **clear guides and resources** to help teams adopt best testing practices.  
-- 🏋🏾 **Hands-On Support:** Work directly with teams to implement, debug, and improve testing strategies** based on their specific needs.  
+- 🏋🏾 **Hands-On Support:** Work directly with teams to implement, debug, and improve testing strategies based on their specific needs.  
 - 💡 **Internal Advocacy:** Establish regular discussions and knowledge-sharing sessions to align teams on best practices.  
 
 ---
