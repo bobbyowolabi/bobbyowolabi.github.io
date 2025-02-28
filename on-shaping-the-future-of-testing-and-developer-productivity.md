@@ -13,7 +13,7 @@ Throughout my career, I have always gravitated toward what I coined "libraries, 
 
 ### **Examples of Personal Projects**:
 - 📈 **Apache NiFi Data Flow:** Developed a human-readable to binary converter for a legacy format, making tests more readable and flexible.  
-- 🐦 **Twitter Developer Platform:** Automated test user creation, credential storage, and retrieval** for testing saving collegues developer time.
+- 🐦 **Twitter Developer Platform:** Automated test user creation, credential storage, and retrieval for testing saving collegues developer time.
 - 🍿 **Netflix:** While working in the Developer Productivity org I researched JavaScript test frameworks and standards in the company and wrote the first test for a metrics dashboard written in TypeScript used by the Consumer Engineering organization.  
 
 My career has increasingly focused on the areas of testing infrastructure & developer productivity as I will describe below.
