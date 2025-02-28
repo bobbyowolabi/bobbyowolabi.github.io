@@ -101,5 +101,5 @@ Quality metrics provide actionable insights, but **standardization across testin
 
 [post]: https://www.linkedin.com/posts/niranjanprithviraj_software-engineer-frontend-consumer-ceti-activity-7300564482466938882-EzOU
 [resume-download]: https://drive.google.com/file/d/1H-a-Q2rRVj9nAPh1qad4CvTfojAlZ7GP/view?usp=sharing
-[open-test-reporting-format]: https://github.com/orgs/junit-team/projects/4/views/1?pane=issue&itemId=86522386&issue=junit-team%7Cjunit5%7C4113
+[open-test-reporting-format]: https://github.com/junit-team/junit5/issues/4113
 [job]: https://www.coinbase.com/careers/positions/6202747
