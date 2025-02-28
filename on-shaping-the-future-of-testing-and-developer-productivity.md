@@ -9,7 +9,7 @@ description:
 I'm excited about the [opportunity][job] at Coinbase and wanted to share my thoughts on [your recent post][post].  
 
 ## Why I'm Passionate About This Position 💪🏾
-Throughout my career, I have always gravitated toward what I coined "libraries, frameworks, and utilities."I have always found satisfaction in making the lives of my fellow engineers easier. This has often manifested in testing, which I take seriously. 
+Throughout my career, I have always gravitated toward what I coined "libraries, frameworks, and utilities." I have always found satisfaction in making the lives of my fellow engineers easier. This has often manifested in testing, which I take seriously. 
 
 ### **Examples of Personal Projects**:
 - 📈 **Apache NiFi Data Flow:** Developed a human-readable to binary converter for a legacy format, making tests more readable and flexible.  
