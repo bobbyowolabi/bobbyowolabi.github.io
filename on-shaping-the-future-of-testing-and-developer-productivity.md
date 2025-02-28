@@ -46,7 +46,7 @@ One of the first challenges will be the **lack of universal definitions** for un
 ---
 
 ### **Flaky Test Detection, Self-Healing Automation & Anomaly Detection 🤖**  
-Flaky tests create **frustration and inefficiency** and also decrease developer trusts their test suites.
+Flaky tests create **frustration and inefficiency** and also decreases developer trust in my their test suites.
 
 Due to the potential size of the team, deciding whether to **build in-house solutions** or **use external vendors** is a key strategic decision.  
 
