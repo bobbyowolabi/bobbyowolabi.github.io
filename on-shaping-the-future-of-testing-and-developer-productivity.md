@@ -2,7 +2,7 @@
 layout: default
 title: On Shaping the Future of Testing & Developer Productivity
 description: 
-published: false
+published: true
 ---
 
 # Hello Niranjan,  
