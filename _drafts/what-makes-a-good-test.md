@@ -129,6 +129,12 @@ It is worth building it like it matters … because increasingly, it is the thin
 
 ---
 
+Further Exploration: 
+what does ai generated code mean for open source maintainers and the craft at large?
+how do open source maintainers think about tests and whether or not these things become proprietary
+
+---
+
 ### Notes
 
 [<a name="current-age-of-swe-note">a</a>] That is in the current age where more and more people are writing the 
