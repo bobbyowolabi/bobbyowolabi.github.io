@@ -131,7 +131,11 @@ It is worth building it like it matters … because increasingly, it is the thin
 
 Further Exploration: 
 what does ai generated code mean for open source maintainers and the craft at large?
+https://angiejones.tech/stop-closing-the-door-fix-the-house/
+
 how do open source maintainers think about tests and whether or not these things become proprietary
+evan king post
+
 
 ---
 
